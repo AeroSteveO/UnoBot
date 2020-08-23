@@ -9,7 +9,7 @@ services:
       Server: irc.freenode.net
       Port: 6697 
       Nick: unoBot
-      Channel: #spdcx 
+      Channel: "#spdcx" #since the # is a comment in yaml, add quotes around the channel name
       BotOps: roofis0
       UpdateScript: ./runUnoBot.sh 
       Verbose: "true"
